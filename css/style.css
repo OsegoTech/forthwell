@@ -191,6 +191,11 @@
     background-size: cover;
 }
 
+.page-header-travel{
+    background: url(../img/travel.jpg)   no-repeat;
+    background-size: cover;
+}
+
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
     font-weight: 500;
