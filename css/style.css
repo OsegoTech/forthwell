@@ -192,7 +192,31 @@
 }
 
 .page-header-travel{
-    background: url(../img/travel.jpg)   no-repeat;
+    background: url(../img/travel.jpg)center center   no-repeat;
+    background-size: cover;
+}
+
+.page-header-life{
+    background: url(../img/life.jpg)center center   no-repeat;
+    background-size: cover;
+}
+.page-header-health{
+    background: url(../img/health.webp)center center   no-repeat;
+    background-size: cover;
+}
+
+.page-header-home{
+    background: url(../img/home.webp)center center   no-repeat;
+    background-size: cover;
+}
+
+.page-header-car{
+    background: url(../img/car.webp)center center   no-repeat;
+    background-size: cover;
+}
+
+.page-header-idemnity{
+    background: url(../img/idemnity.jpg)center center   no-repeat;
     background-size: cover;
 }
 
@@ -209,6 +233,27 @@
 .page-header .breadcrumb-item a:hover,
 .page-header .breadcrumb-item.active {
     color: var(--primary);
+}
+
+/* adding backgrund image */
+.bg-life::before{
+    background: url(../img/life.jpg)center center   no-repeat;
+    background-size: cover;
+    
+}
+
+.servContainer{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.flex1{
+    flex: 1;
+    padding: 10px;
+}
+
+.servImg{
+    max-width: 50%;
 }
 
 
